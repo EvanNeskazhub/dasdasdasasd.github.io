@@ -1,0 +1,37 @@
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  footer {
+    display: none;
+  }
+  .section-pricing{
+    margin-top: 1150px!important;
+  }
+  .section-team {
+    background: none;
+  }
+  .team-text h3, p{
+    color: #333!important;
+  }
+  .header-text p {
+    color: #333!important;
+  }
+  .section-clients{
+    margin-bottom: -160px;
+  }
+  .price-card:hover{
+    transform: none;
+    border: 0;
+  }
+  .price-text{
+    margin: auto;
+  }
+  .i-r:hover, .i-c:hover, .i-l:hover{
+    transform: none!important;
+  }
+  .header-text p{
+    /* color: #fff!important; */
+  }
+  .section-brands {
+    display: none;
+  }
+}
